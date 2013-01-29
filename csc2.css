@@ -1,0 +1,42 @@
+/*** Generic Selectors ***/
+
+body {
+	background-color: rgb(10, 0, 30);
+}
+
+h1 {
+	color: rgb(50, 50, 255);
+	border: 5px, solid, red;
+}
+
+p {
+	color: rgb(255, 255, 255);
+}
+
+/*** Pseudo Classes ***/
+
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color: blue;
+}
+
+a:hover {
+	color: blue;
+}
+
+a:active {
+	color: blue;
+}
+
+/*** Classes ***/
+
+
+
+/*** IDs ***/
+
+#sideNav {
+	border-right: 5px, solid, red;
+}
