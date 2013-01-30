@@ -1,4 +1,4 @@
-/*** Generic Selectors ***/
+/***** Generic Selectors *****/
 
 body {
 	background-color: rgb(10, 0, 30);
@@ -6,37 +6,43 @@ body {
 
 h1 {
 	color: rgb(50, 50, 255);
-	border: 5px, solid, red;
+	background-color: black;
+	background-image: url('header_background.png');
+	width: 700px;
+	text-align: center;
+	font-size: 40px;
 }
 
 p {
 	color: rgb(255, 255, 255);
 }
 
-/*** Pseudo Classes ***/
+/***** Pseudo Classes *****/
 
-a:link {
-	color: blue;
+
+
+/***** Classes *****/
+
+.navLink {
+	color: red;
 }
 
-a:visited {
-	color: blue;
-}
-
-a:hover {
-	color: blue;
-}
-
-a:active {
-	color: blue;
-}
-
-/*** Classes ***/
-
-
-
-/*** IDs ***/
+/***** IDs *****/
 
 #sideNav {
-	border-right: 5px, solid, red;
+	width: 150px;
+	float: left;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	margin-right: 50px;
+	border: 5px solid darkred;
+}
+
+#main{
+	width: 1000px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	display: inline;
 }
