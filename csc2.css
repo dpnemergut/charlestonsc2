@@ -6,15 +6,20 @@ body {
 
 h1 {
 	color: rgb(50, 50, 255);
-	background-color: black;
+	margin: 20px;
 	background-image: url('header_background.png');
-	width: 700px;
+	width: 1130px;
 	text-align: center;
 	font-size: 40px;
 }
 
 p {
 	color: rgb(255, 255, 255);
+	margin: 30px;
+}
+
+ul {
+	list-style: none;
 }
 
 /***** Pseudo Classes *****/
@@ -24,25 +29,51 @@ p {
 /***** Classes *****/
 
 .navLink {
+	color: rgb(50, 50, 255);
+}
+
+.bracket {
+	border-collapse: collapse;
+	width: 840px;
+	margin: 30px;
+}
+
+.bracket th {
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	border: 1px solid rgb(255, 255, 255);
+}
+
+.bracket td {
+	height: 30px;
+	width: 100px;
 	color: red;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.player {
+	border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 /***** IDs *****/
+
+#main{
+	width: 900px;
+	float: left;
+	margin: 20px;
+	padding: 0;
+	display: inline;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 15px;
+}
 
 #sideNav {
 	width: 150px;
 	float: left;
 	display: inline;
-	margin: 0;
+	margin: 20px;
 	padding: 0;
 	margin-right: 50px;
-	border: 5px solid darkred;
-}
-
-#main{
-	width: 1000px;
-	float: left;
-	margin: 0;
-	padding: 0;
-	display: inline;
+	border: 5px solid rgb(50, 50, 255);
 }
