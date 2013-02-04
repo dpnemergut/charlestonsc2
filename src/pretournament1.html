@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Pre-Tournament 1 - CharlestonSC2</title>
+		<meta name="description" content="Tournament 1 setup for the place where Charleston South Carolina Starcraft tournament seekers and beer drinkers unite.">
+		<link rel="stylesheet" href="csc2.css">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	
+	
+	<body>
+		<header>
+			<h1><br>Charleston Starcraft Tournaments</h1>
+		</header>
+	
+		<nav id="sideNav">
+			<ul>
+				<li><a class="navLink" href="charlestonsc2.html">Home</a></li>
+				<li><a class="navLink" href="pretournament1.html">Pre-Tournament 1</a></li>
+				<li><a class="navLink" href="tournament1.html">Tournament 1</a></li>
+			</ul>
+		</nav>
+		
+		<article id="main">
+			<p>Sign-up is still available for this tournament! Please fill in the information below and I will email you back when you've been added to the list of competitors.</p>
+			<form name="signupForm" action="sendFormEmail.php" method="post">
+				<table>
+					<tr>
+						<td><p><label for="userName">Starcraft User Name *</label></p></td>
+						<td><input type="text" name="userName" maxlength="14" value="" required></td>
+					</tr>
+					<tr>
+						<td><p><label for="characterCode">Starcraft Character Code *</label></p></td>
+						<td><input type="text" name="characterCode" maxlength="3" value="" required></td>
+					</tr>
+					<tr>
+						<td><p><label for="race">Race *</label></p></td>
+						<td>
+							<select name="race" required>
+								<option value=""></option>
+								<option value="Terran">Terran</option>
+								<option value="Zerg">Zerg</option>
+								<option value="Protoss">Protoss</option>
+								<option value="Random">Random</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td><p><label for="email">Email *</label></p></td>
+						<td><input type="email" name="email" value="" required></td>
+					</tr>
+					<tr>
+						<td><p><input type="submit" name="submit" value=" Submit "></p></td>
+					</tr>
+				</table>
+			</form>
+		</article>
+		
+		<footer>
+				This site is maintained by Daniel Nemergut and the source code can be found on <a class="footerLink" href="https://github.com/dpnemergut/charlestonsc2">GitHub.</a> <br>
+				<a class="footerLink" href="mailto:dpnemergut@gmail.com">Email me</a> if you have any questions or suggestions about the site.
+		</footer>
+	
+	</body>
+	
+</html>
