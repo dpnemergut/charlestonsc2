@@ -11,7 +11,7 @@ header, nav, article, footer {
 h1 {
 	color: rgb(50, 50, 255);
 	margin: 20px;
-	background-image: url('../img/header_background.png');
+	background-image: url('img/header_background.png');
 	width: 1130px;
 	text-align: center;
 	font-size: 40px;
