@@ -2,8 +2,8 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Pre-Tournament 1 - CharlestonSC2</title>
-		<meta name="description" content="Tournament 1 setup for the place where Charleston South Carolina Starcraft tournament seekers and beer drinkers unite.">
+		<title>Registration - CharlestonSC2</title>
+		<meta name="description" content="Registration setup for the place where Charleston South Carolina Starcraft tournament seekers and beer drinkers unite.">
 		<link rel="stylesheet" href="csc2.css">
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -19,13 +19,13 @@
 		<nav id="sideNav">
 			<ul>
 				<li><a class="navLink" href="index.html">Home</a></li>
-				<li><a class="navLink" href="pretournament1.html">Pre-Tournament 1</a></li>
+				<li><a class="navLink" href="registration.html">Registration</a></li>
 				<li><a class="navLink" href="tournament1.html">Tournament 1</a></li>
 			</ul>
 		</nav>
 		
 		<article id="main">
-			<p>Sign-up is still available for this tournament! Please fill in the information below and I will email you back when you've been added to the list of competitors.</p>
+			<p>Sign-up is still available for the next tournament! Please fill in the information below and I will email you back when you've been added to the list of competitors.</p>
 			<form name="signupForm" action="signupEmail.php" method="post">
 				<table>
 					<tr>
@@ -53,6 +53,10 @@
 						<td><input type="email" name="email" value="" required></td>
 					</tr>
 					<tr>
+						<td><p><label for="bar">Bar Recommendation</label></p></td>
+						<td><input type="text" name="bar" value=""></td>
+					</tr>
+					<tr>
 						<td><p><input type="submit" name="submit" value="Submit"></p></td>
 					</tr>
 				</table>
@@ -60,8 +64,9 @@
 		</article>
 		
 		<footer>
-				This site is maintained by Daniel Nemergut and the source code can be found on <a class="footerLink" href="https://github.com/dpnemergut/charlestonsc2">GitHub.</a> <br>
-				<a class="footerLink" href="mailto:dpnemergut@gmail.com">Email me</a> if you have any questions or suggestions about the site.
+				Feel free to <a class="footerLink" href="mailto:dpnemergut@gmail.com">email me</a> if you think we should have another tournament or if you would like to host your own event.<br>
+				This site is maintained by Daniel Nemergut and the source code can be found on <a class="footerLink" href="https://github.com/dpnemergut/charlestonsc2">GitHub.</a><br>
+				Let me know if you have any questions or suggestions about the site.
 		</footer>
 	
 	</body>
