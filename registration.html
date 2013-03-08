@@ -1,84 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Registration - CharlestonSC2</title>
-		<meta name="description" content="Registration setup for the place where Charleston South Carolina Starcraft tournament seekers and beer drinkers unite.">
-		<link rel="stylesheet" href="csc2.css">
-		<link rel="shortcut icon" href="img/icon.ico">
-		<!--[if lt IE 9]>
-			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-	</head>
-	
-	
-	<body>
-		<header>
-			<h1><br>Charleston Starcraft Tournaments</h1>
-		</header>
-	
-		<nav id="sideNav">
-			<ul>
-				<li><a class="navLink" href="index.html">Home</a></li>
-				<li><a class="navLink" href="registration.html">Registration</a></li>
-				<li><a class="navLink" href="tournament1.html">3/3/13 Tournament</a></li>
-			</ul>
-		</nav>
-		
-		<article id="main">
-			<p>
-				Sign-up is still available for the tournament on March 3, 2013!
-				Please fill in the information below and you will be added to the list of competitors.
-				Include your email address if you would like to receive confirmation of your registration as well as an update when the tournament date approaches.
-			</p>
-			
-			<form name="signupForm" action="signupEmail.php" method="post">
-				<table class="registration">
-					<tr>
-						<td><p><label for="userName">Starcraft User Name</label></p></td>
-						<td class="required"><input type="text" name="userName" maxlength="14" value="" required> *</td>
-					</tr>
-					<tr>
-						<td><p><label for="characterCode">Starcraft Character Code</label></p></td>
-						<td class="required"><input type="text" name="characterCode" maxlength="3" value="" placeholder="000" required> *</td>
-					</tr>
-					<tr>
-						<td><p><label for="race">Race</label></p></td>
-						<td class="required">
-							<select name="race" required>
-								<option value=""></option>
-								<option value="Terran">Terran</option>
-								<option value="Zerg">Zerg</option>
-								<option value="Protoss">Protoss</option>
-								<option value="Random">Random</option>
-							</select> *
-						</td>
-					</tr>
-					<tr>
-						<td><p><label for="email">Email</label></p></td>
-						<td><input type="email" name="email" value="" placeholder="you@domain.com"></td>
-					</tr>
-					<tr>
-						<td><p><label for="bar">Bar Recommendation</label></p></td>
-						<td><input type="text" name="bar" value=""></td>
-					</tr>
-					<tr>
-						<td><p><label for="human">Quick! 4 x 5 / 2 =</label></p></td>
-						<td class="required"><input type="text" name="human" value="" placeholder="Hint: It's a number." required> *</td>
-					</tr>
-					<tr>
-						<td><p><input type="submit" name="submit" value="Submit"></p></td>
-					</tr>
-				</table>
-			</form>
-		</article>
-		
-		<footer>
-				Feel free to <a class="footerLink" href="mailto:dpnemergut@gmail.com">email me</a> if you think we should have another tournament or if you would like to host your own event.<br>
-				This site is maintained by Daniel Nemergut and the source code can be found on <a class="footerLink" href="https://github.com/dpnemergut/charlestonsc2">GitHub.</a><br>
-				Let me know if you have any questions or suggestions about the site.
-		</footer>
-	
-	</body>
-	
+    <head>
+        <meta charset="UTF-8">
+        <title>Registration - CharlestonSC2</title>
+        <meta name="description" content="Registration setup for the place where Charleston South Carolina Starcraft tournament seekers and beer drinkers unite.">
+        <link rel="stylesheet" href="csc2.css">
+        <link rel="shortcut icon" href="img/icon.ico">
+        <!--[if lt IE 9]>
+            <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <header>
+            <h1><br>Charleston Starcraft Tournaments</h1>
+        </header>
+
+        <nav id="sideNav">
+            <ul>
+                <li><a class="navLink" href="index.html">Home</a></li>
+                <li><a class="navLink" href="registration.html">Registration</a></li>
+                <li><a class="navLink" href="tournament1.html">3/3/13 Tournament</a></li>
+            </ul>
+        </nav>
+
+        <article id="main">
+            <p>
+                Sign-up is still available for the tournament on March 3, 2013!
+                Please fill in the information below and you will be added to the list of competitors.
+                Include your email address if you would like to receive confirmation of your registration as well as an update when the tournament date approaches.
+            </p>
+
+            <form name="signupForm" action="signupEmail.php" method="post">
+                <table class="registration">
+                    <tr>
+                        <td><p><label for="userName">Starcraft User Name</label></p></td>
+                        <td class="required"><input type="text" name="userName" maxlength="14" value="" required> *</td>
+                    </tr>
+                    <tr>
+                        <td><p><label for="characterCode">Starcraft Character Code</label></p></td>
+                        <td class="required"><input type="text" name="characterCode" maxlength="3" value="" placeholder="000" required> *</td>
+                    </tr>
+                    <tr>
+                        <td><p><label for="race">Race</label></p></td>
+                        <td class="required">
+                            <select name="race" required>
+                                <option value=""></option>
+                                <option value="Terran">Terran</option>
+                                <option value="Zerg">Zerg</option>
+                                <option value="Protoss">Protoss</option>
+                                <option value="Random">Random</option>
+                            </select> *
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p><label for="email">Email</label></p></td>
+                        <td><input type="email" name="email" value="" placeholder="you@domain.com"></td>
+                    </tr>
+                    <tr>
+                        <td><p><label for="bar">Bar Recommendation</label></p></td>
+                        <td><input type="text" name="bar" value=""></td>
+                    </tr>
+                    <tr>
+                        <td><p><label for="human">Quick! 4 x 5 / 2 =</label></p></td>
+                        <td class="required"><input type="text" name="human" value="" placeholder="Hint: It's a number." required> *</td>
+                    </tr>
+                    <tr>
+                        <td><p><input type="submit" name="submit" value="Submit"></p></td>
+                    </tr>
+                </table>
+            </form>
+        </article>
+
+        <footer>
+            Feel free to <a class="footerLink" href="mailto:dpnemergut@gmail.com">email me</a> if you think we should have another tournament or if you would like to host your own event.<br>
+            This site is maintained by Daniel Nemergut and the source code can be found on <a class="footerLink" href="https://github.com/dpnemergut/charlestonsc2">GitHub.</a><br>
+            Let me know if you have any questions or suggestions about the site.
+        </footer>
+
+    </body>
 </html>
+
